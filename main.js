@@ -26,7 +26,7 @@ Think about which debugging methods you found most useful and how you might appl
 
 console.log("Welcome to the bootcamp");
 
-// What’s Wrong? The code is missing closing quote, parenthesis, and semi colon
+// What’s Wrong? Syntax: The code is missing closing quote, parenthesis, and semi colon
 
 
 // Program B
@@ -39,7 +39,7 @@ for (let i = 0; i < numbers.length; i++) {
   console.log(doubled);
 }
 
-// What’s Wrong? "eight" is a string when it should be the number 8
+// What’s Wrong? Runtime: "eight" is a string when it should be the number 8
 
 
 
@@ -59,4 +59,4 @@ function isPrime(num) {
 
 console.log(isPrime(7)); // Expected true but gets false
 
-// What’s Wrong? for the returns, true and false are flipped
+// What’s Wrong? Logic: for the returns, true and false are flipped
